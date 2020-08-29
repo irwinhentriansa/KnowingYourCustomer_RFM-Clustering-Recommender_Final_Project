@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-color:rgb(252, 250, 250)">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="http://127.0.0.1:5000/">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="http://127.0.0.1:5000/dataset">Dataset</a>
+            <a class="nav-item nav-link" href="http://127.0.0.1:5000/data_visualization">Overview</a>
+            <a class="nav-item nav-link" href="http://127.0.0.1:5000/model">Outcome</a>
+            
+          </div>
+        </div>
+    </nav>
+    <br>
+    <center>
+        
+        <h2>DATA VISUALIZATION AND RFM LABELLING</h2>
+    </center>
+    <br>
+
+    <center>
+    <div class="accordion" id="accordionExample">
+
+        <div class="card" style="max-width: 1250px">
+          <div class="card-header bg-secondary" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block  text-white text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Purchasing Map and Distribution Based on Sales-Quantity
+              </button>
+            </h2>
+          </div>     
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+            <center><img src="http://127.0.0.1:5000/static/Sales Over The World Map.png" class="img-fluid" alt="Responsive image">
+            <br>
+              <img src="http://127.0.0.1:5000/static/Country Distribution excluding United Kingdom.jpeg" class="img-fluid" alt="Responsive image">
+            <br>
+              <img src="http://127.0.0.1:5000/static/TOP 15 Quantity of Products sold in all the countries except UK.jpeg" class="img-fluid" alt="Responsive image">
+            <br>
+              <img src="http://127.0.0.1:5000/static/Bottom 15 Country Quantity of Products sold in all the countries except UK.jpeg" class="img-fluid" alt="Responsive image">
+            <br>
+              <img src="http://127.0.0.1:5000/static/TOP 15 Country Purchasing Online Retail.jpg" class="img-fluid" alt="Responsive image">
+            <br>
+              <img src="http://127.0.0.1:5000/static/Bottom Top 15  Countries Purchasing.jpeg" class="img-fluid" alt="Responsive image">
+            <br>
+              <img src="http://127.0.0.1:5000/static/Top 5 Countries by Sales Amount, Quantity & Price.png" class="img-fluid" alt="Responsive image", width="1000">
+            <br>
+            </center>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="max-width: 1250px">
+          <div class="card-header bg-secondary" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-white text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Time Series on TOP 5 Countries
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+            <center><img src="http://127.0.0.1:5000/static/Country United Kingdom Orders and Amount Sales.jpeg" class="img-fluid" alt="Responsive image", width="850", height="600"></center>
+            <center><img src="http://127.0.0.1:5000/static/Country EIRE Orders and Amount Sales.jpeg" class="img-fluid" alt="Responsive image", width="850", height="600"></center>
+            <center><img src="http://127.0.0.1:5000/static/Country Netherlands Orders and Amount Sales.jpeg" class="img-fluid" alt="Responsive image", width="850", height="600"></center>
+            <center><img src="http://127.0.0.1:5000/static/Country Germany Orders and Amount Sales.jpeg" class="img-fluid" alt="Responsive image", width="850", height="600"></center>
+            <center><img src="http://127.0.0.1:5000/static/Country France Orders and Amount Sales.jpeg" class="img-fluid" alt="Responsive image", width="850", height="600"></center>  
+          </div>
+          </div>
+        </div>
+
+        <div class="card" style="max-width: 1250px">
+          <div class="card-header bg-secondary" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-white text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Time Series on Purchasing and Amount Spent (Sales)
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+            <center><img src="http://127.0.0.1:5000/static/Orders and Amount Sales in Month.jpeg" class="img-fluid" alt="Responsive image", width="850", height="600"></center>
+            <center><img src="http://127.0.0.1:5000/static/Orders and Amount Sales by Week.jpeg" class="img-fluid" alt="Responsive image", width="850", height="600"></center>
+            <center><img src="http://127.0.0.1:5000/static/Orders and Amount Sales by Days.jpeg" class="img-fluid" alt="Responsive image", width="850", height="600"></center>
+            <center><img src="http://127.0.0.1:5000/static/Orders and Amount Sales by Hour in All Year.jpeg" class="img-fluid" alt="Responsive image", width="850", height="600"></center>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="max-width: 1250px">
+            <div class="card-header bg-secondary" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-white text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Products Exploration
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                <center><img src="http://127.0.0.1:5000/static/The Most Product Ordered.png" class="img-fluid" alt="Responsive image", width="425", height="300"></center>
+                <center><img src="http://127.0.0.1:5000/static/Most Occuring word in the Description list.jpeg" class="img-fluid" alt="Responsive image", width="850", height="600"></center>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="max-width: 1250px">
+            <div class="card-header bg-secondary" id="headingFive">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-white text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                RFM(Recency, Frequency, & Monetary) and Its Distribution
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                <center><img src="http://127.0.0.1:5000/static/RFM Segments.jpeg" class="img-fluid" alt="Responsive image", width="850", height="450"></center>
+                <center><img src="http://127.0.0.1:5000/static/Distribution of Segments 2.jpeg" class="img-fluid" alt="Responsive image", width="850", height="450"></center>
+              </div>
+            </div>
+          </div>
+
+      </div>
+      </center>
+
+
+</body>
+</html>
