@@ -40,6 +40,9 @@ This `dataset` have 8 columns and 1067371 rows
 > - CustomerID: Customer number. Nominal. A 5-digit integral number uniquely assigned to each customer.
 > - Country: Country name. Nominal. The name of the country where a customer resides.
 <hr>
+
+
+
 ### 1. Data Cleaning and Preprocessing
 
 **A. Cleaning** 
