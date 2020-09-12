@@ -26,7 +26,7 @@ This `dataset` have 8 columns and 1067371 rows
 
 ## Workflow
 
-<img src="https://i.imgur.com/1jrJj0xh.png" title="source: imgur.com" width=600 height=500 />
+<img src="https://i.imgur.com/1jrJj0xh.png" title="source: imgur.com"/>
 
 
 ## Let's Take a Look The Features:
